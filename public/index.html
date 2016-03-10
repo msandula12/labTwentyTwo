@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta charset="UTF-8">
+
+	<!-- CSS compiled with Stylus -->
+	<link rel="stylesheet" href="styles/styles.css">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body ng-app="randomApp">
+	
+	<h1>Lyrics + Quotes + Facts</h1>
+	<p ng-controller="randomController" id="randomThing" ng-bind="what"></p>
+	
+	<script src="libs/angular.min.js"></script>
+	<script src="libs/angular-route.min.js"></script>
+	<script src="scripts/service.js"></script>
+	<script src="scripts/controller.js"></script>
+</body>
+</html>
